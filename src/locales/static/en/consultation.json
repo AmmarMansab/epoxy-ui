@@ -1,0 +1,74 @@
+{
+  "hero": {
+    "heading": "CONTACT US",
+    "title": "Get Your Free Epoxy Consultation",
+    "breadcrumbs": {
+      "home": "Home",
+      "contact": "Contact Us"
+    }
+  },
+  "intro": {
+    "heading": "Transform Your Floors with Confidence",
+    "description": "At Epoxy Maestro, we believe every great floor begins with expert guidance. Our free consultation helps you explore the best epoxy solutions."
+  },
+  "form": {
+    "heading": "Select your project type and share your details below.",
+    "projectType": {
+      "label": "Project Type",
+      "options": {
+        "retail": "Retail Consultation",
+        "corporate": "Corporate Consultation"
+      }
+    },
+    "fields": {
+      "firstName": {
+        "label": "First Name",
+        "placeholder": "Enter first name"
+      },
+      "lastName": {
+        "label": "Last Name",
+        "placeholder": "Enter last name"
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "Enter email"
+      },
+      "contactNumber": {
+        "label": "Contact Number",
+        "placeholder": "Enter your number"
+      },
+      "areaType": {
+        "label": "Type of Area",
+        "placeholder": "Select area type",
+        "options": {
+          "residential": "Residential",
+          "commercial": "Commercial",
+          "industrial": "Industrial",
+          "retail": "Retail",
+          "other": "Other"
+        }
+      },
+      "surfaceSize": {
+        "label": "Surface Size",
+        "placeholder": "Enter area size in m²"
+      },
+      "description": {
+        "label": "Description",
+        "placeholder": "Briefly describe your project (e.g., remodel kitchen, repaint living room...)"
+      }
+    },
+    "submitButton": "Book My Consultation"
+  },
+  "contactInfo": {
+    "email": {
+      "label": "Email"
+    },
+    "contact": {
+      "label": "Contact"
+    },
+    "address": {
+      "label": "Address"
+    }
+  }
+}
+

@@ -1,0 +1,46 @@
+{
+  "name": "epoxy-ui",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "biome check",
+    "format": "biome format --write",
+    "translate": "node scripts/translate.js",
+    "translate:ar": "node scripts/translate.js ./src/locales/static en ar",
+    "translate:all": "node scripts/translate.js ./src/locales/static en ar"
+  },
+  "dependencies": {
+    "@emotion/cache": "^11.14.0",
+    "@emotion/react": "^11.14.0",
+    "@emotion/server": "^11.11.0",
+    "@emotion/styled": "^11.14.1",
+    "@gsap/react": "^2.1.2",
+    "@mui/icons-material": "^7.3.6",
+    "@mui/material": "^7.3.6",
+    "@mui/system": "^7.3.6",
+    "aos": "^2.3.4",
+    "formik": "^2.4.9",
+    "framer-motion": "^12.23.26",
+    "gsap": "^3.13.0",
+    "motion": "^12.23.26",
+    "next": "16.0.10",
+    "next-intl": "^4.6.0",
+    "react": "19.2.1",
+    "react-dom": "19.2.1",
+    "swiper": "^12.0.3",
+    "yup": "^1.7.1"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.2.0",
+    "@types/aos": "^3.0.7",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "sass": "^1.96.0",
+    "translate": "^3.0.1",
+    "typescript": "^5"
+  }
+}

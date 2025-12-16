@@ -1,0 +1,151 @@
+@use 'sass:math';
+@use 'sass:color';
+@use './variables' as *;
+
+// Responsive Mixins
+@mixin respond-to($breakpoint) {
+  @if $breakpoint == xs {
+    @media (min-width: $breakpoint-xs) {
+      @content;
+    }
+  } @else if $breakpoint == sm {
+    @media (min-width: $breakpoint-sm) {
+      @content;
+    }
+  } @else if $breakpoint == md {
+    @media (min-width: $breakpoint-md) {
+      @content;
+    }
+  } @else if $breakpoint == lg {
+    @media (min-width: $breakpoint-lg) {
+      @content;
+    }
+  } @else if $breakpoint == xl {
+    @media (min-width: $breakpoint-xl) {
+      @content;
+    }
+  }
+}
+
+// RTL/LTR Mixins
+@mixin rtl {
+  [dir='rtl'] & {
+    @content;
+  }
+}
+
+@mixin ltr {
+  [dir='ltr'] & {
+    @content;
+  }
+}
+
+// Direction-aware properties
+@mixin margin-start($value) {
+  margin-left: $value;
+  @include rtl {
+    margin-left: 0;
+    margin-right: $value;
+  }
+}
+
+@mixin margin-end($value) {
+  margin-right: $value;
+  @include rtl {
+    margin-right: 0;
+    margin-left: $value;
+  }
+}
+
+@mixin padding-start($value) {
+  padding-left: $value;
+  @include rtl {
+    padding-left: 0;
+    padding-right: $value;
+  }
+}
+
+@mixin padding-end($value) {
+  padding-right: $value;
+  @include rtl {
+    padding-right: 0;
+    padding-left: $value;
+  }
+}
+
+@mixin border-start($value) {
+  border-left: $value;
+  @include rtl {
+    border-left: none;
+    border-right: $value;
+  }
+}
+
+@mixin border-end($value) {
+  border-right: $value;
+  @include rtl {
+    border-right: none;
+    border-left: $value;
+  }
+}
+
+// Flexbox utilities
+@mixin flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin flex-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@mixin flex-start {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+@mixin flex-end {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+// Text utilities
+@mixin text-truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+@mixin text-truncate-multiline($lines: 2) {
+  display: -webkit-box;
+  -webkit-line-clamp: $lines;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+// Scrollbar styling
+@mixin custom-scrollbar($width: 8px, $track-color: #2b2b2b, $thumb-color: #6b6b6b) {
+  &::-webkit-scrollbar {
+    width: $width;
+    height: $width;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: $track-color;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: $thumb-color;
+    border-radius: math.div($width, 2);
+
+    &:hover {
+      background: color.adjust($thumb-color, $lightness: 10%);
+    }
+  }
+}
+

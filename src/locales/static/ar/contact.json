@@ -1,0 +1,107 @@
+{
+  "hero": {
+    "heading": "اتصل بنا",
+    "title": "شراكة مع إيبوكسي مايسترو",
+    "breadcrumbs": {
+      "home": "الرئيسية",
+      "contact": "اتصل بنا"
+    }
+  },
+  "form": {
+    "heading": "انضم إلى شبكة الإحالة الموثوقة لدينا",
+    "description": "انضم إلى شبكة الموردين لدينا لتلقي إحالات العملاء الموثقة وتعاون المشاريع والظهور التجاري عبر المشاريع السكنية والتجارية والصناعية.",
+    "sections": {
+      "companyInfo": {
+        "heading": "معلومات الشركة",
+        "fields": {
+          "companyName": {
+            "label": "اسم الشركة",
+            "placeholder": "أدخل اسم الشركة"
+          },
+          "businessType": {
+            "label": "نوع العمل",
+            "placeholder": "نوع عملك",
+            "options": {
+              "contractor": "مقاول",
+              "distributor": "موزع",
+              "retailer": "تاجر",
+              "manufacturer": "مصنع",
+              "other": "أخرى"
+            }
+          },
+          "crNumber": {
+            "label": "رقم السجل التجاري",
+            "placeholder": "رقم السجل التجاري"
+          },
+          "establishedYear": {
+            "label": "سنة التأسيس",
+            "placeholder": "أدخل سنة التأسيس"
+          },
+          "website": {
+            "label": "موقع الشركة أو صفحة إنستغرام",
+            "placeholder": "رابط الموقع / صفحة إنستغرام"
+          }
+        }
+      },
+      "contactInfo": {
+        "heading": "معلومات الاتصال",
+        "fields": {
+          "contactPersonName": {
+            "label": "اسم الشخص المسؤول",
+            "placeholder": "أدخل الاسم"
+          },
+          "position": {
+            "label": "المنصب/الدور",
+            "placeholder": "منصبك",
+            "options": {
+              "owner": "مالك",
+              "manager": "مدير",
+              "director": "مدير تنفيذي",
+              "salesRepresentative": "مندوب مبيعات",
+              "other": "أخرى"
+            }
+          },
+          "email": {
+            "label": "البريد الإلكتروني",
+            "placeholder": "أدخل البريد الإلكتروني"
+          },
+          "phoneNumber": {
+            "label": "رقم الهاتف",
+            "placeholder": "أدخل رقم الهاتف"
+          },
+          "officeAddress": {
+            "label": "عنوان المكتب",
+            "placeholder": "عنوان مكتبك"
+          }
+        }
+      },
+      "serviceDetails": {
+        "heading": "نوع خدمات الإيبوكسي التي تقدمها",
+        "services": {
+          "flooring": "أرضيات",
+          "coating": "طلاء",
+          "waterproofing": "عزل مائي",
+          "surfaceRepair": "إصلاح الأسطح",
+          "other": "أخرى"
+        },
+        "additionalInfo": {
+          "label": "معلومات إضافية",
+          "placeholder": "اكتب هنا..."
+        },
+        "submitButton": "إرسال"
+      }
+    }
+  },
+  "contactInfo": {
+    "email": {
+      "label": "البريد الإلكتروني"
+    },
+    "contact": {
+      "label": "الاتصال"
+    },
+    "address": {
+      "label": "العنوان"
+    }
+  }
+}
+

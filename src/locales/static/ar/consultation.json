@@ -1,0 +1,74 @@
+{
+  "hero": {
+    "heading": "اتصل بنا",
+    "title": "احصل على استشارة الإيبوكسي المجانية",
+    "breadcrumbs": {
+      "home": "الرئيسية",
+      "contact": "اتصل بنا"
+    }
+  },
+  "intro": {
+    "heading": "حوّل أرضياتك بثقة",
+    "description": "في إيبوكسي مايسترو، نؤمن أن كل أرضية رائعة تبدأ بإرشاد خبير. تساعدك استشارتنا المجانية على استكشاف أفضل حلول الإيبوكسي."
+  },
+  "form": {
+    "heading": "اختر نوع مشروعك وشارك تفاصيلك أدناه.",
+    "projectType": {
+      "label": "نوع المشروع",
+      "options": {
+        "retail": "استشارة تجزئة",
+        "corporate": "استشارة شركات"
+      }
+    },
+    "fields": {
+      "firstName": {
+        "label": "الاسم الأول",
+        "placeholder": "أدخل الاسم الأول"
+      },
+      "lastName": {
+        "label": "اسم العائلة",
+        "placeholder": "أدخل اسم العائلة"
+      },
+      "email": {
+        "label": "البريد الإلكتروني",
+        "placeholder": "أدخل البريد الإلكتروني"
+      },
+      "contactNumber": {
+        "label": "رقم الاتصال",
+        "placeholder": "أدخل رقمك"
+      },
+      "areaType": {
+        "label": "نوع المنطقة",
+        "placeholder": "اختر نوع المنطقة",
+        "options": {
+          "residential": "سكني",
+          "commercial": "تجاري",
+          "industrial": "صناعي",
+          "retail": "تجزئة",
+          "other": "أخرى"
+        }
+      },
+      "surfaceSize": {
+        "label": "مساحة السطح",
+        "placeholder": "أدخل مساحة المنطقة بالمتر المربع"
+      },
+      "description": {
+        "label": "الوصف",
+        "placeholder": "اوصف مشروعك بإيجاز (مثل: تجديد المطبخ، إعادة طلاء غرفة المعيشة...)"
+      }
+    },
+    "submitButton": "احجز استشارتي"
+  },
+  "contactInfo": {
+    "email": {
+      "label": "البريد الإلكتروني"
+    },
+    "contact": {
+      "label": "الاتصال"
+    },
+    "address": {
+      "label": "العنوان"
+    }
+  }
+}
+

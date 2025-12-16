@@ -1,0 +1,107 @@
+{
+  "hero": {
+    "heading": "CONTACT US",
+    "title": "Partner with Epoxy Maestro",
+    "breadcrumbs": {
+      "home": "Home",
+      "contact": "Contact us"
+    }
+  },
+  "form": {
+    "heading": "Join Our Trusted Referral Network",
+    "description": "Join our vendor network to receive verified client referrals, project collaborations, and brand visibility across residential, commercial, and industrial projects.",
+    "sections": {
+      "companyInfo": {
+        "heading": "Company Information",
+        "fields": {
+          "companyName": {
+            "label": "Company Name",
+            "placeholder": "Enter company name"
+          },
+          "businessType": {
+            "label": "Business Type",
+            "placeholder": "Your business type",
+            "options": {
+              "contractor": "Contractor",
+              "distributor": "Distributor",
+              "retailer": "Retailer",
+              "manufacturer": "Manufacturer",
+              "other": "Other"
+            }
+          },
+          "crNumber": {
+            "label": "CR Number",
+            "placeholder": "Commercial registration number"
+          },
+          "establishedYear": {
+            "label": "Established Year",
+            "placeholder": "Enter established year"
+          },
+          "website": {
+            "label": "Company Website or Instagram Page",
+            "placeholder": "Website / Instagram page link"
+          }
+        }
+      },
+      "contactInfo": {
+        "heading": "Contact Information",
+        "fields": {
+          "contactPersonName": {
+            "label": "Contact Person Name",
+            "placeholder": "Enter name"
+          },
+          "position": {
+            "label": "Position/Role",
+            "placeholder": "Your position",
+            "options": {
+              "owner": "Owner",
+              "manager": "Manager",
+              "director": "Director",
+              "salesRepresentative": "Sales Representative",
+              "other": "Other"
+            }
+          },
+          "email": {
+            "label": "Email",
+            "placeholder": "Enter email"
+          },
+          "phoneNumber": {
+            "label": "Phone Number",
+            "placeholder": "Enter phone number"
+          },
+          "officeAddress": {
+            "label": "Office Address",
+            "placeholder": "Your office address"
+          }
+        }
+      },
+      "serviceDetails": {
+        "heading": "Type of Epoxy Services You Provide",
+        "services": {
+          "flooring": "Flooring",
+          "coating": "Coating",
+          "waterproofing": "Waterproofing",
+          "surfaceRepair": "Surface Repair",
+          "other": "Other"
+        },
+        "additionalInfo": {
+          "label": "Additional Info",
+          "placeholder": "Write here..."
+        },
+        "submitButton": "Submit"
+      }
+    }
+  },
+  "contactInfo": {
+    "email": {
+      "label": "Email"
+    },
+    "contact": {
+      "label": "Contact"
+    },
+    "address": {
+      "label": "Address"
+    }
+  }
+}
+

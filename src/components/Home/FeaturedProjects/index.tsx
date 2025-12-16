@@ -78,7 +78,7 @@ export function FeaturedProjects({ data }: FeaturedProjectsProps) {
           data-aos="fade-up"
           data-aos-delay="200"
         >
-          {data.projects.map((project, index) => (
+          {data.projects.map((project:any, index) => (
             <Card
               key={project.id}
               elevation={0}

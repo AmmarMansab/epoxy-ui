@@ -19,7 +19,7 @@ export function AOSProvider() {
       useClassNames: false,
       disable: false,
       startEvent: 'DOMContentLoaded',
-      initClassName: false,
+      initClassName: '',
       animatedClassName: 'aos-animate',
     });
 
